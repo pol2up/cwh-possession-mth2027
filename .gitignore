@@ -1,0 +1,11 @@
+# provided match data and external datasets are not redistributable
+/data
+# generated
+pipeline/cache*/
+pipeline/out/
+pipeline/sequence_training/cache/
+pipeline/*.npy
+pipeline/*.npz
+*.log
+__pycache__/
+.DS_Store
